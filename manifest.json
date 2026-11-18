@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "Acumatica Table Copier",
+	"version": "1.0.0",
+	"description": "Click a grid in Acumatica to copy it as tab-separated text (pastes cleanly into Excel).",
+	"permissions": [
+		"scripting",
+		"clipboardWrite"
+	],
+	"host_permissions": [
+		"https://hdfowler.acumatica.com/*"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_title": "Pick an Acumatica table (Esc to cancel)"
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": { "default": "Alt+Shift+C" }
+		}
+	}
+}

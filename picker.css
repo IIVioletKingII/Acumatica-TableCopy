@@ -1,0 +1,28 @@
+/* Injected by background.js while picker mode is on; removed when it ends. */
+
+html.acu-copy-picking,
+html.acu-copy-picking * {
+	cursor: crosshair !important;
+}
+
+.grid.acu-copy-hover thead>tr>th {
+	background-color: #b0c9df !important;
+}
+
+.grid.acu-copy-hover tbody>tr>td {
+	background-color: rgba(30, 130, 220, 0.12) !important;
+}
+
+.grid.acu-copy-hover .grid-header {
+	box-shadow:
+		0px -2px 0px 0px #2685d9,
+		1px -1px 0px 1px #2685d9,
+		-1px -1px 0px 1px #2685d9
+}
+
+.grid.acu-copy-hover .grid-content {
+	box-shadow:
+		0px 2px 0px 0px #2685d9,
+		2px 0px 0px 0px #2685d9,
+		-2px 0 0px 0px #2685d9
+}
